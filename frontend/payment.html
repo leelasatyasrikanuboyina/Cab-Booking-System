@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+
+<h1>Cab Booking System</h1>
+
+<nav>
+
+<a href="dashboard.html">Dashboard</a>
+<a href="bookings.html">My Bookings</a>
+<a href="profile.html">Profile</a>
+
+</nav>
+
+</header>
+
+<div class="payment-container">
+
+<h2>Payment</h2>
+
+<label>Booking ID</label>
+<input type="number" id="booking_id">
+
+<label>Amount</label>
+<input type="number" id="amount">
+
+<label>Payment Method</label>
+
+<select id="payment_method">
+
+<option value="">Select</option>
+<option value="UPI">UPI</option>
+<option value="Card">Card</option>
+<option value="Cash">Cash</option>
+
+</select>
+
+<br><br>
+
+<button onclick="makePayment()">Pay Now</button>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

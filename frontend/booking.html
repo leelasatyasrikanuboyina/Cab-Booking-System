@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab Booking System</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>Cab Booking System</h1>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="login.html">Login</a>
+
+<a href="register.html">Register</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Book Your Ride Anytime</h2>
+
+<p>Fast • Safe • Affordable</p>
+
+<a href="booking.html">
+<button>Book Now</button>
+</a>
+
+</section>
+
+<section class="services">
+
+<h2>Our Services</h2>
+
+<div class="card">
+
+<h3>Mini Cab</h3>
+
+<p>Affordable rides for daily travel.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Sedan</h3>
+
+<p>Comfortable rides for families.</p>
+
+</div>
+
+<div class="card">
+
+<h3>SUV</h3>
+
+<p>Perfect for long journeys.</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Cab Booking System</p>
+
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Cab</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+
+<h1>Cab Booking System</h1>
+
+<nav>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="bookings.html">My Bookings</a>
+    <a href="profile.html">Profile</a>
+    <a href="index.html">Logout</a>
+</nav>
+
+</header>
+
+<div class="booking-container">
+
+<h2>Book Your Cab</h2>
+
+<form>
+
+<label>Pickup Location</label>
+<input type="text" id="pickup" placeholder="Enter Pickup Location">
+
+<label>Drop Location</label>
+<input type="text" id="drop" placeholder="Enter Drop Location">
+
+<label>Date</label>
+<input type="date" id="date">
+
+<label>Time</label>
+<input type="time" id="time">
+
+<label>Select Cab</label>
+
+<select id="cab">
+
+<option value="">Choose Cab</option>
+
+<option>Mini</option>
+
+<option>Sedan</option>
+
+<option>SUV</option>
+
+<option>Luxury</option>
+
+</select>
+
+<button type="button" onclick="bookCab()">Book Now</button>
+
+</form>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
